@@ -3,15 +3,25 @@ const app = express()
 const PORT = 8000
 
 const rappers = {
-    '21 savage': {
+    '21 sSavage': {
         'age': 29,
         'birthName': 'Sheyaa Bin Abraham-Joseph',
         'birthLocation': 'London,England'
     },
-    'future': {
+    'Future': {
         'age': 38,
-        'birthName': 'Chancelor Bennett',
+        'birthName': 'Nayvadius Demun Wilburn',
+        'birthLocation': 'Atlanta, Georgia'
+    },
+    'Ye': {
+        'age': 45,
+        'birthName': 'Kanye West',
         'birthLocation': 'Chicago, Illinois'
+    },
+    'Playboi Carti': {
+        'age': 25,
+        'birthName': 'Jordan Terrell Carter',
+        'birthLocation': 'Riverdale, Georgia'
     },
     'unknown': {
         'age': 0,
